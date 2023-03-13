@@ -1,0 +1,53 @@
+.container {
+  height: 30rem;
+  width: 30rem;
+  border-radius: 5px;
+  background-color: white;
+  margin: 10rem auto;
+  padding: 2rem;
+  color: black;
+}
+
+.input-rapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  border: 1px solid #f3f1f4;
+  border-radius: 2px;
+  padding-left: 0.5rem;
+}
+
+.input-rapper button {
+  border: none;
+  background-color: transparent;
+}
+
+input {
+  height: 2rem;
+  flex-grow: 1;
+}
+
+.todo-rapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.todo-rapper span {
+  flex-grow: 1;
+  background-color: #f3f1f4;
+  padding: 0.5rem;
+}
+.todo-rapper input {
+  /* width: none; */
+  background-color: #f3f1f4;
+  display: flex;
+  justify-self: flex-end;
+  justify-content: end;
+}
+input.todo-input {
+  /* width: auto !important; */
+  width: auto;
+  background-color: #f3f1f4;
+  /* max-width: none; */
+}
